@@ -19,5 +19,5 @@ from APP.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('valami/', index)
+    path('', index)
 ]
